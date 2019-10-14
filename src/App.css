@@ -1,22 +1,39 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin: 50px 0 0 50px;
+  width: 700px;
+  height: 600px;
   display: flex;
   flex-direction: column;
+  background-image: url("img/background.jpg");
+  background-size: cover;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: absolute;
 }
 
-.App-link {
-  color: #09d3ac;
+.drone {
+  background-image: url("img/drone.png");
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  background-color: transparent;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.board {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  background-color: transparent;
+  width: 250px;
+  color: #000;
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
 }
